@@ -1,0 +1,37 @@
+
+ThymeLeaf (Pronounciation - Timeleaf)
+-> Java Tmplate Engine 
+-> USed to generate Html views for web apps
+-> Can create projects without Spring
+-> Processed ojn the server
+-> Browser-> Controller->Tymeleaf -> Browser (same as JSP)
+-> Can we used in web/notweb enovironment(JSP onl suports Web environment )
+
+Non Web Environment
+-> Email Template 
+Send welcome mail on signup
+-> CSV Template
+Generate and send monthly report to server
+-> PDF Template
+Generate travel ticket and send via email
+
+-> Steps
+1. Add thymeleaf to maven
+2. Develop Spring MVC Controller
+3. Create Thymeleaf teplate
+
+Default" src/main/resources/templates
+Uses .html extesion
+Css files
+src/main/resources/static/css
+@{/css/file.css}
+@ -> Reference context path of application 
+
+Spring boot searches for in Top-down manner
+/META-INF/resources
+/resources
+/static
+/public
+-> Bootstrap can be added in ny of this
+
+
